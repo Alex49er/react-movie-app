@@ -1,11 +1,17 @@
 import './App.css';
 import Navbar from './components/Navbar';
+import Home from './components/Home'
+import AboutView from './components/AboutView'
+
+
 
 function App() {
   return (
     <div>
       <Navbar/>
-      <h1>Hello from React</h1>
+      <Home/>
+      <AboutView/>
+      
     </div>
   );
 }
